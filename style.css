@@ -1,6 +1,4 @@
 body {
-  display: flex;
-  justify-content: center;
   margin: 0;
   padding: 16px;
   box-sizing: border-box;
@@ -19,7 +17,7 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0;
+  margin: 0 0 16px 0;
   padding: 0;
 }
 
@@ -28,10 +26,15 @@ ul {
   gap: 16px;
 }
 
-.conatiner {
+.container {
   display: flex;
 }
 
+#ichigo {
+  flex-grow: 1;
+  /* object-fit: cover; */
+}
+
 .header-content {
-  width: 50%;
+  max-width: 50%;
 }
