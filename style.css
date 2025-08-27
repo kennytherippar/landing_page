@@ -1,0 +1,37 @@
+body {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  list-style-type: none;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.right-header {
+  display: flex;
+  gap: 16px;
+}
+
+.conatiner {
+  display: flex;
+}
+
+.header-content {
+  width: 50%;
+}
