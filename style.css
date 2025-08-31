@@ -2,18 +2,24 @@ body {
   margin: 0;
   padding: 16px;
   box-sizing: border-box;
+  font-family: Roboto;
+}
+
+header {
+  background-color: #1f2937;
+  color: white;
 }
 
 a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 li {
   list-style-type: none;
 }
 
-ul {
+header ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -30,11 +36,69 @@ ul {
   display: flex;
 }
 
-#ichigo {
-  flex-grow: 1;
-  /* object-fit: cover; */
+.header-content,
+.image {
+  flex: 1;
 }
 
-.header-content {
-  max-width: 50%;
+.image {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.square {
+  width: 200px;
+  height: 200px;
+  border-radius: 10%;
+  border: 5px solid #3882f6;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  padding: 16px;
+}
+
+.sliders {
+  display: flex;
+  gap: 32px;
+}
+
+.slider p {
+  max-width: 200px;
+  text-align: center;
+}
+
+.quotes {
+  background-color: #e5e7eb;
+  padding: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote-box {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  gap: 8px;
+  padding: 16px;
+}
+
+.quote-box p {
+  margin: 0;
+}
+
+#thor {
+  align-self: flex-end;
+}
+
+footer {
+  background-color: #1f2937;
+  color: white;
 }
